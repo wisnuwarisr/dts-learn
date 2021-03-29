@@ -1,0 +1,109 @@
+/* tablet */
+@media (max-width: 1000px) {
+    lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .top-wrapper {
+        font-size: 32px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .contact-form p {
+        font-size: 14px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 14px 6px 14px 14px;
+        margin-bottom: 7px;
+    }
+
+    .fill .contact-submit {
+        width: 98%;
+        box-shadow: 3px 3px 5px #223e53, -3px -3px 5px #fff;
+    }
+
+    .contact-submit:active {
+        box-shadow: 0px 0px 4px #223e53, -2px -2px 4px #fff;
+    }
+}
+
+/* smartphone */
+
+@media (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        padding-top: 21px;
+        font-size: 25px;
+    }
+    
+    .row .item a{
+        display: block;
+        align-items: center;
+        margin:none;
+    }
+    .lesson {
+        width: 100%;
+    }
+
+    .lesson-icon img {
+        height: 300px;
+        position: center;
+        padding-left: 25px;
+    }
+    .lesson-icon h3 {
+        text-align: center;
+    }
+    .lesson-icon p {
+        position: relative;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .contact-form .section-title {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form p {
+        font-size: 13px;
+    }
+
+    input, textarea {
+        width: 97%;
+        font-size: 13px;
+        padding: 12px 2px 12px 13px;
+        margin-bottom: 2px;
+        border-radius: 18px;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    input:hover {
+        border-radius: 32px;
+    }
+
+    textarea:hover {
+        border-radius: 20px;
+    }
+
+    .fill .contact-submit {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
